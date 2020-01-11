@@ -1,0 +1,59 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+header
+{
+    background-image: url(../background.jpg);
+    height: 100vh;
+}
+body
+{
+  font-family: FiraGO,Tahoma,Calibri,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .5px;
+}
+img {
+    border-style: none;
+}
+ul
+{
+    text-align: right;
+}
+.navbar {
+  box-shadow: $box-shadow;
+  background-color: $white;
+  transition: background-color 0.2s ease;
+}
+  .navbar-brand {
+    font-family: $font-family-sans-serif;
+    font-weight: $font-weight-bold;
+    color: $gray-900;
+  }
+.pb-3, .py-3 {
+    padding-bottom: 1rem!important;
+}
+.py-3 {
+    padding-top: 1rem!important;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.navbar-expand-lg {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    }
+    .navbar {
+            display: flex;
+            align-items: center;
+                padding: .5rem 1rem;
+            }
+
+}
